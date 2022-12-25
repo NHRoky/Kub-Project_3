@@ -1,0 +1,1537 @@
+@media (min-width: 0) and (max-width: 575.98px) { 
+    /* ==================common css start=============== */
+    .title {
+        margin-bottom: 10px;
+    }
+    .title h2 {
+        font-size: 40px;
+        line-height: 41px;
+        padding: 0 20px;
+    }
+    .title p {
+        font-size: 12px;
+        line-height: 21px;
+        padding: 0 20px;
+    }
+    /* ==================common css end=============== */
+    /* ================navber star================ */
+    .navbar {
+        top: 0;
+        background: #ece7e79e;
+    }
+    .navbar .navbar-toggler{
+        border: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler i{
+        color: #f9fbfd;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+    .navbar .navbar-nav .nav-item .active{
+        margin-left: 20px;
+    }
+    .navbar form .btn {
+        padding: 3px 26px !important;
+        font-size: 12px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav{
+        text-align: center;
+    }
+    .navbar form{
+        justify-content: center;
+    }
+    .navbar .navbar-nav {
+        text-align: center;
+        background: #7c8686;
+        width: 50%;
+        border-radius: 10px;
+        padding: 0 30px 0 20px !important;
+    }
+    /* ================navber end================ */
+    /* ================banner part sart==================== */
+    #banner_part {
+        width: 100%;
+        background: url(../image/banner1.jpg) no-repeat center;
+        background-size: cover;
+    }
+    #banner_part .overlay {
+        padding: 100px 0 58px !important;
+    }
+    #banner_part .overlay .text h1 {
+        font-size: 40px;
+        line-height: 115%;
+        width: auto;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    #banner_part .overlay .text p {
+        font-size: 12px;
+        line-height: 18px;
+        width: auto;
+        margin: 5px auto 14px;
+        padding: 0 20px;
+    }
+    #banner_part .overlay .text .button_part a {
+        font-size: 16px;
+        padding: 5px 30px !important;
+    }
+    /* ================banner part end==================== */
+    /* ===============couner part start==================== */
+    #counter_part {
+        margin: 47px 0 50px;
+    }
+    #counter_part .main {
+        text-align: center;
+        padding: 30px 1px;
+    }
+    #counter_part .main .left h3 {
+        font-size: 20px;
+    }
+    #counter_part .main .left h2 {
+        font-size: 28px;
+        width: auto;
+    }
+    #counter_part .main .right{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #counter_part .main .right .item_1 {
+        margin: 20px;
+    }
+    /* ================counter part end==================== */
+    /* ================Service  part start==================== */
+    #service_part {
+        padding-bottom: 50px;
+    }
+    #service_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service_part .ser_1 {
+        padding: 30px 30px 30px; 
+    }
+    #service_part .ser_1 .text h2 {
+       
+        margin: 24px 0 10px;
+    }
+    #service_part .ser_1 .text p {
+        font-size: 12px;
+        line-height: 19px;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* ==============Service part end==================== */
+    /* ==============work part sart==================== */
+
+    #work_part .title p {
+        width: auto;
+        margin: 0 auto 30px;
+    }
+    #work_part {
+        background: #F3F3F3;
+        padding: 50px 0 50px !important;
+    }
+    #work_part .work_1 .text {
+        padding: 18px 23px !important;
+    }
+    #work_part .work_1 .text h2 {
+        font-size: 21px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    #work_part .work_1 .text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ==============work part end==================== */
+    /* ==============Agence part start==================== */
+    #agence_part {
+        padding: 50px 0 50px !important;
+    }
+    .title h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    #agence_part .title h2 {
+        width: auto;
+        margin: 0 auto 20px;
+    }
+    #agence_part .title p {
+        width: auto;
+        margin: 0 auto 44px;
+
+    }
+    #agence_part .main .agence_1 {
+        margin-bottom: 30px;
+        display: flex;
+    } 
+    #agence_part .main .agence_1 .text{
+        margin-left: 15px;
+    }
+    #agence_part .main .agence_1 .text h3 {  
+        font-size: 16px;
+        line-height: 11px;
+    }
+    #agence_part .main .agence_1 .text p {
+        font-size: 12px;
+        line-height: 20px;
+        width: auto;
+    }
+   #agence_part .main .nahid{
+    display: none;
+   }
+    /* ==============agence part end==================== */
+    /* ==============claint part start==================== */
+    
+    #claint_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #claint_part .main .claint p {
+        font-size: 12px;
+        line-height: 17px;
+        width: auto;
+    }
+    /* ==============clain part end==================== */
+    /* ==============login part start==================== */
+    #log_part {
+        background: #F3F3F3;
+        padding: 30px 0;
+    }
+    #log_part .container .main .text h2 {
+        font-size: 18px;
+        line-height: 21px;
+        width: auto;
+        margin-bottom: 0;
+    }
+    #log_part .container .main .text p {
+        font-size: 12px;
+        line-height: 16px; 
+        width: auto;
+    }
+    #log_part .container .main .right h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #log_part .container .main .right {
+        border-radius: 10px;
+        padding: 22px 16px !important;
+        width: auto;
+        margin-top: 10px;
+    }
+    #log_part .container .main .right form input {
+        margin-bottom: 5px;
+        padding: 8px 5px;
+        font-size: 12px;
+        line-height: 20px; 
+    }
+    #log_part .container .main .right form label {
+        font-size: 12px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    #log_part .container .main .right form button {
+        padding: 5px 0;
+        border-radius: 10px;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    /* ==============clain part end==================== */
+    /* ==============cntract part strat==================== */
+    #contract_part .main {
+        padding: 51px 0 50px !important;
+    }
+    #contract_part .main .one {
+        margin-bottom: 10px;
+    }
+    #contract_part .main p {
+        font-size: 12px;
+        line-height: 19px;  
+        width: auto;
+    }
+    #contract_part .main h3 {
+        font-size: 22px;
+        line-height: 0px;
+        margin-bottom: 12px; 
+    }
+    #contract_part .main ul li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #contract_part .main .cont-1 {
+        margin:10px 0 0; 
+    }
+    /* ==============contract part end==================== */
+    /* ==============futter part start==================== */
+    .futter_part {
+        padding: 10px 0 10px !important;
+    }
+    .futter_part p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    /* ==============futter  part end==================== */
+ }
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    /* ==================common css start=============== */
+    .title {
+        margin-bottom: 10px;
+    }
+    .title h2 {
+        font-size: 40px;
+        line-height: 41px;
+        padding: 0 20px;
+    }
+    .title p {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+    /* ==================common css end=============== */
+    /* ================navber star================ */
+    .navbar {
+        top: 0;
+        background: #ece7e79e;
+    }
+    .navbar .navbar-toggler{
+
+        border: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler i{
+        color: #f9fbfd;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+    .navbar .navbar-nav .nav-item .active{
+        margin-left: 20px;  
+    }
+    .navbar form .btn {
+        padding: 10px 50px !important;
+        font-size: 12px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav{
+        text-align: center;
+    }
+    .navbar form{
+        justify-content: center;
+    }
+    .navbar .navbar-nav {
+        text-align: center;
+        background: #7c8686;
+        width: 40%;
+        border-radius: 10px;
+        padding: 20px 30px 10px 20px !important;
+    }
+    /* ================navber end================ */
+    /* ================banner part sart==================== */
+    #banner_part {
+        width: 100%;
+        background: url(../image/banner3.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    #banner_part .overlay {
+        padding: 150px 0 80px !important;
+    }
+    #banner_part .overlay .text h1 {
+        font-size: 40px;
+        line-height: 115%;
+        width: auto;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    #banner_part .overlay .text p {
+        font-size: 14px;
+        line-height: 25px;
+        width: auto;
+        margin: 10px auto 85px;
+        padding: 0 73px;
+    }
+    #banner_part .overlay .text .button_part a {
+        font-size: 16px;
+        padding: 10px 46px !important;
+    }
+    /* ================banner part end==================== */
+    /* ===============couner part start==================== */
+    #counter_part {
+        margin: 47px 0 50px;
+    }
+    #counter_part .main {
+        text-align: center;
+        padding: 30px 1px;
+    }
+    #counter_part .main .left h3 {
+        font-size: 27px;
+    }
+    #counter_part .main .left h2 {
+        font-size: 37px;
+        width: auto;
+    }
+    #counter_part .main .right {
+        flex-direction: row;
+       
+        justify-content: center;
+    }
+    #counter_part .main .right .item_1 {
+        margin: 20px;
+    }
+    #counter_part .main .right h2 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+    /* ================counter part end==================== */
+    /* ================Service  part start==================== */
+    #service_part {
+        padding-bottom: 50px;
+    }
+    #service_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service_part .ser_1 {
+        padding: 30px 30px 30px; 
+    }
+    #service_part .ser_1 .text h2 {
+       
+        margin: 24px 0 10px;
+    }
+    #service_part .ser_1 .text p {
+        font-size: 12px;
+        line-height: 19px;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* ==============Service part end==================== */
+    /* ==============work part sart==================== */
+
+    #work_part .title p {
+        width: auto;
+        margin: 0 auto 30px;
+    }
+    #work_part {
+        background: #F3F3F3;
+        padding: 50px 0 50px !important;
+    }
+    #work_part .work_1 .text {
+        padding: 18px 6px !important;
+    }
+    #work_part .work_1 .text h2 {
+        font-size: 21px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    #work_part .work_1 .text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    /* ==============work part end==================== */
+    /* ==============Agence part start==================== */
+    #agence_part {
+        padding: 50px 0 10px !important;
+    }
+    .title h2 {
+        font-size: 41px;
+        line-height: 46px;
+    }
+    #agence_part .title h2 {
+        width: auto;
+        margin: 0 auto 20px;
+    }
+    #agence_part .title p {
+        width: auto;
+        margin: 0 auto 44px;
+    }
+    #agence_part .main .agence_1 {
+        margin-bottom: 30px;
+        display: flex;
+    } 
+    #agence_part .main .agence_1 .text{
+        margin-left: 15px;
+    }
+    #agence_part .main .agence_1 .text h3 {  
+        font-size: 16px;
+        line-height: 11px;
+    }
+    #agence_part .main .agence_1 .text p {
+        font-size: 12px;
+        line-height: 20px;
+        width: auto;
+    }
+    #agence_part .main .nahid {
+        display: block;
+        padding: 30px 20px;
+    }
+    /* ==============agence part end==================== */
+    /* ==============claint part start==================== */
+    /* #claint_part .main .claint {
+        width: auto;
+        padding: 54px 58px;
+        transition: .4s;
+        background: rgb(68, 78, 98);
+        margin-left: 24px;
+        border-radius: 30px;
+    } */
+    
+    #claint_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #claint_part .main .claint p {
+        font-size: 12px;
+        line-height: 17px;
+        width: auto;
+    }
+    
+    /* ==============clain part end==================== */
+    /* ==============login part start==================== */
+    #log_part {
+        background: #F3F3F3;
+        padding: 30px 0;
+    }
+    #log_part .container .main .text h2 {
+        font-size: 27px;
+        line-height: 36px;
+        width: auto;
+        margin-bottom: 0;
+    }
+    #log_part .container .main .text p {
+        font-size: 16px;
+        line-height: 23px;
+        width: auto;
+    }
+    #log_part .container .main .right h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #log_part .container .main .right {
+        border-radius: 10px;
+        padding: 50px 49px !important;
+        width: auto;
+        margin-top: 15px;
+    }
+    #log_part .container .main .right form input {
+        margin-bottom: 15px;
+        padding: 13px 17px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #log_part .container .main .right form label {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    #log_part .container .main .right form button {
+        padding: 13px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* ==============clain part end==================== */
+    /* ==============cntract part strat==================== */
+    #contract_part .main .left{
+        text-align: center;
+    }
+    #contract_part .main {
+        padding: 51px 0 50px !important;
+    }
+    #contract_part .main .cont-1 {
+        margin: 10px 0 0 70px;
+    }
+    #contract_part .main .hasan{
+        padding: 0 40px !important;
+    }
+    #contract_part .main p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    #contract_part .main h3 {
+        font-size: 22px;
+        line-height: 0px;
+        margin-bottom: 12px;
+    }
+    #contract_part .main ul li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+   
+    /* ==============contract part end==================== */
+    /* ==============futter part start==================== */
+    .futter_part {
+        padding: 10px 0 10px !important;
+    }
+    .futter_part p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    /* ==============futter  part end==================== */
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    /* ==================common css start=============== */
+    .title {
+        margin-bottom: 10px;
+    }
+    .title h2 {
+        font-size: 40px;
+        line-height: 41px;
+        padding: 0 20px;
+    }
+    .title p {
+        font-size: 15px;
+        line-height: 30px;
+        padding: 0 20px;
+    }
+    /* ==================common css end=============== */
+
+
+    /* ================navber star================ */
+    .navbar {
+        top: 0;
+        background: #ece7e79e;
+    }
+    .navbar .navbar-toggler{
+        border: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler i {
+        color: #f9fbfd;
+        font-size: 40px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 22px;
+        line-height: 27px;
+    }
+    .navbar .navbar-nav .nav-item .active{
+        margin-left: 20px;  
+    }
+    .navbar form .btn {
+        padding: 13px 68px !important;
+        font-size: 21px;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav{
+        text-align: center;    
+    }
+    .navbar form{
+        justify-content: center;
+    }
+    .navbar .navbar-nav {
+        text-align: center;
+        background: #7c8686;
+        width: 40%;
+        border-radius: 10px;
+        padding: 70px 37px 84px 20px !important;
+    }
+    /* ================navber end================ */
+
+
+    /* ================banner part sart==================== */
+    #banner_part {
+        width: 100%;
+        background: url(../image/banner2.webp) no-repeat center;
+        background-size: cover;
+    }
+    #banner_part .overlay {
+        padding: 150px 0 80px !important;
+    }
+    #banner_part .overlay .text h1 {
+        font-size: 49px;
+        line-height: 130%;
+        width: auto;
+        margin: 0 auto;
+        padding: 30px 25px;
+    }
+    #banner_part .overlay .text p {
+        font-size: 18px;
+        line-height: 30px;
+        width: auto;
+        margin: 10px auto 85px;
+        padding: 0 20px;
+    }
+    #banner_part .overlay .text .button_part a {
+        font-size: 16px;
+        padding: 13px 62px !important;
+    }
+    /* ================banner part end==================== */
+
+
+    /* ===============couner part start==================== */
+    #counter_part {
+        margin: 47px 0 50px;
+    }
+    #counter_part .main {
+        text-align: center;
+        padding: 30px 1px;
+    }
+    #counter_part .main .left h3 {
+        font-size: 36px;
+    }
+    #counter_part .main .left h2 {
+        font-size: 36px;
+        width: auto;
+    }
+    #counter_part .main .right {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #counter_part .main .right .item_1 {
+        margin: 20px;
+    }
+    #counter_part .main .right h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    #counter_part .main .right p {
+        font-size: 24px;
+        line-height: 147%;
+    }
+    /* ================counter part end==================== */
+
+
+    /* ================Service  part start==================== */
+    #service_part {
+        padding-bottom: 50px;
+    }
+    #service_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service_part .ser_1 {
+        padding: 30px 30px 30px; 
+    }
+    #service_part .ser_1 .text h2 {
+       
+        margin: 24px 0 10px;
+    }
+    #service_part .ser_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* ==============Service part end==================== */
+
+
+    /* ==============work part sart==================== */
+    #work_part .title p {
+        width: auto;
+        margin: 0 auto 30px;
+        font-size: 20px;
+    }
+    #work_part {
+        background: #F3F3F3;
+        padding: 50px 0 50px !important;
+    }
+    #work_part .work_1 .text {
+        padding: 18px 6px !important;
+    }
+    #work_part .work_1 .text h2 {
+        font-size: 28px;
+        line-height: 41px;
+        margin-bottom: 0;
+    }
+    #work_part .work_1 .text p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    /* ==============work part end==================== */
+
+
+    /* ==============Agence part start==================== */
+    #agence_part {
+        padding: 50px 0 10px !important;
+    }
+    .title h2 {
+        font-size: 41px;
+        line-height: 46px;
+    }
+    #agence_part .title h2 {
+        width: auto;
+        margin: 0 auto 20px;
+        font-size: 48px;
+        line-height: 51px;
+    }
+    #agence_part .title p {
+        width: auto;
+        margin: 0 auto 44px;
+        font-size: 20px;
+    }
+    #agence_part .main .agence{
+        margin-left: 19px;
+    }
+    #agence_part .main .agence_1 {
+	margin-bottom: 51px;
+	display: flex;
+}
+    #agence_part .main .agence_1 .text{
+        margin-left: 15px;
+    }
+    #agence_part .main .agence_1 .text h3 {
+        font-size: 25px;
+        line-height: 15px;
+    }
+    #agence_part .main .agence_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    #agence_part .main .nahid {
+        display: block;
+        padding: 30px 100px;
+    }
+    /* ==============agence part end==================== */
+
+
+    /* ==============claint part start==================== */
+    #claint_part .title p {
+        width: auto;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    #claint_part .main .claint p {
+        font-size: 12px;
+        line-height: 17px;
+        width: auto;  
+    } */
+    /* ==============clain part end==================== */
+
+
+    /* ==============login part start==================== */
+    #log_part {
+        background: #F3F3F3;
+        padding: 30px 0;
+    }
+    #log_part .container .main .text h2 {
+        font-size: 24px;
+        line-height: 34px;
+        width: auto;
+        margin-bottom: 0;
+    }
+    #log_part .container .main .text p {
+        font-size: 19px;
+        line-height: 31px;
+        width: auto;
+    }
+    #log_part .container .main .right h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #log_part .container .main .right {
+        border-radius: 10px;
+        padding: 35px 21px !important;
+        width: auto;
+        margin-top: 15px;
+    }
+    #log_part .container .main .right form input {
+        margin-bottom: 15px;
+        padding: 13px 17px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #log_part .container .main .right form label {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    #log_part .container .main .right form button {
+        padding: 13px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* ==============clain part end==================== */
+
+
+    /* ==============cntract part strat==================== */
+    #contract_part .main .left{
+        text-align: center;
+    }
+    #contract_part .main {
+        padding: 51px 0 50px !important;
+    }
+    #contract_part .main .cont-1 {
+        margin: 10px 0 0 70px; 
+    }
+    #contract_part .main .hasan{
+        padding: 0 40px !important;
+    }
+    #contract_part .main p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    #contract_part .main h3 {
+        font-size: 22px;
+        line-height: 0px;
+        margin-bottom: 12px; 
+    }
+    #contract_part .main ul li a {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    /* ==============contract part end==================== */
+
+
+    /* ==============futter part start==================== */
+    .futter_part {
+        padding: 17px 0 10px !important;
+    }
+    .futter_part p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ==============futter  part end==================== */
+
+
+
+ }
+ @media (min-width: 992px) and (max-width: 1199.98px) { 
+    /* ==================common css start=============== */
+    .title {
+        margin-bottom: 10px;
+    }
+    .title h2 {
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .title p {
+        font-size: 19px;
+        line-height: 30px;
+        padding: 0 159px;
+    }
+    /* ==================common css end=============== */
+
+
+    /* ================navber star================ */
+    .navbar {
+        top: 10px;
+       
+    }
+    .navbar .navbar-toggler{
+        border: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler i {
+        color: #f9fbfd;
+        font-size: 40px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 20px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .navbar .navbar-nav .nav-item .active{
+        margin-left: 20px;  
+    }
+    .navbar form .btn {
+        padding: 10px 41px !important;
+        font-size: 18px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav{
+        text-align: center;    
+    }
+    .navbar form{
+        justify-content: center;
+    }
+    .navbar .navbar-nav {
+        text-align: center;
+        border-radius: 10px;
+    }
+    /* ================navber end================ */
+
+
+    /* ================banner part sart==================== */
+    #banner_part {
+        width: 100%;
+        background: url(../image/banner4.jpeg) no-repeat center;
+        background-size: cover;
+    }
+    #banner_part .overlay {
+        padding: 150px 0 80px !important;
+    }
+    #banner_part .overlay .text h1 {
+        font-size: 59px;
+        line-height: 117%;
+        width: auto;
+        margin: 0 auto;
+        padding: 20px 25px;
+    }
+    #banner_part .overlay .text p {
+        font-size: 26px;
+        line-height: 35px;
+        width: auto;
+        margin: 15px auto 48px;
+        padding: 0 20px;
+    }
+    #banner_part .overlay .text .button_part a {
+        font-size: 22px;
+        padding: 13px 76px !important;
+    }
+    /* ================banner part end==================== */
+
+
+    /* ===============couner part start==================== */
+    #counter_part {
+        margin: 47px 0 50px;
+    }
+    #counter_part .main {
+        text-align: center;
+        padding: 30px 1px;
+    }
+    #counter_part .main .left h3 {
+        font-size: 30px;
+    }
+    #counter_part .main .left h2 {
+        font-size: 30px;
+        width: auto;
+    }
+    #counter_part .main .right {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #counter_part .main .right .item_1 {
+        margin: 20px;
+    }
+    #counter_part .main .right h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    #counter_part .main .right p {
+        font-size: 20px;
+        line-height: 147%;
+    }
+    /* ================counter part end==================== */
+
+
+    /* ================Service  part start==================== */
+    #service_part {
+        padding-bottom: 50px;
+    }
+    #service_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service_part .ser_1 {
+        padding: 30px 30px 30px; 
+    }
+    #service_part .ser_1 .text h2 {
+       
+        margin: 24px 0 10px;
+    }
+    #service_part .ser_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* ==============Service part end==================== */
+
+
+    /* ==============work part sart==================== */
+    #work_part .title p {
+        width: auto;
+        margin: 0 auto 30px;
+        font-size: 20px;
+    }
+    #work_part {
+        background: #F3F3F3;
+        padding: 50px 0 50px !important;
+    }
+    #work_part .work_1 .text {
+        padding: 18px 6px !important;
+    }
+    #work_part .work_1 .text h2 {
+        font-size: 21px;
+        line-height: 41px;
+        margin-bottom: 0;
+    }
+    #work_part .work_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* ==============work part end==================== */
+
+
+    /* ==============Agence part start==================== */
+    #agence_part {
+        padding: 50px 0 10px !important;
+    }
+    /* #agence_part .title h2 {
+        width: auto;
+        margin: 0 auto 20px;
+        font-size: 48px;
+        line-height: 51px;
+    } */
+    #agence_part .title p {
+        width: auto;
+        margin: 0 auto 41px;
+        font-size: 17px;
+    }
+    #agence_part .main .agence{
+        margin-left: 19px;
+    }
+    #agence_part .main .agence_1 {
+        margin-bottom: 32px;
+    }
+    #agence_part .main .agence_1 .text h3 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    #agence_part .main .agence_1 .text p {
+        font-size: 18px;
+        line-height: 26px;
+        width: auto;
+    }
+    #agence_part .main .nahid {
+        display: none;
+        padding: 30px 35px;
+    }
+    /* ==============agence part end==================== */
+
+
+    /* ==============claint part start==================== */
+   
+    #claint_part .title p {
+        width: auto;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    #claint_part .main .claint p {
+        font-size: 12px;
+        line-height: 17px;
+        width: auto;  
+    }
+    #claint_part .main .claint p {
+        font-size: 17px;
+        line-height: 23px;
+        width: auto;
+    }
+    /* ==============clain part end==================== */
+
+
+    /* ==============login part start==================== */
+    #log_part {
+        background: #F3F3F3;
+        padding: 30px 0;
+    }
+    #log_part .container .main .text h2 {
+        font-size: 33px;
+        line-height: 41px;
+        width: auto;
+       
+    }
+    #log_part .container .main .text p {
+        font-size: 19px;
+        line-height: 31px;
+        width: auto;
+    }
+    #log_part .container .main .right h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #log_part .container .main .right {
+        border-radius: 10px;
+        padding: 35px 21px !important;
+        width: auto;
+        margin-top: 15px;
+    }
+    #log_part .container .main .right form input {
+        margin-bottom: 15px;
+        padding: 16px 16px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #log_part .container .main .right form label {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    #log_part .container .main .right form button {
+        padding: 13px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* ==============clain part end==================== */
+
+
+    /* ==============cntract part strat==================== */
+    #contract_part .main {
+        padding: 51px 0 50px !important;
+    }
+    #contract_part .main .cont-1 {
+        margin: 10px 0 0 0px;
+    }
+    #contract_part .main .hasan{
+        padding: 0 40px !important;
+    }
+    #contract_part .main .one {
+        margin-bottom: 15px;
+    }
+    #contract_part .main p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    #contract_part .main h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    #contract_part .main ul li a {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    /* ==============contract part end==================== */
+
+
+    /* ==============futter part start==================== */
+    .futter_part {
+        padding: 17px 0 10px !important;
+    }
+    .futter_part p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* ==============futter  part end==================== */
+
+
+
+ }
+ @media (min-width: 1200px) and (max-width: 1399.98px) { 
+    /* ==================common css start=============== */
+    .title {
+        margin-bottom: 10px;
+    }
+    .title h2 {
+        font-size: 44px;
+        line-height: 46px;
+    }
+    .title p {
+        font-size: 19px;
+        line-height: 30px;
+        padding: 0 159px;
+    }
+    /* ==================common css end=============== */
+
+
+    /* ================navber star================ */
+    .navbar {
+        top: 10px;
+       
+    }
+    .navbar .navbar-toggler{
+        border: 0;
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        box-shadow: none;
+    }
+    .navbar .navbar-toggler i {
+        color: #f9fbfd;
+        font-size: 40px;
+    }
+    .navbar .navbar-nav .nav-item {
+        margin-left: 40px;
+    }
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 23px;
+        line-height: 20px;
+    }
+    .navbar .navbar-nav .nav-item .active{
+        margin-left: 20px;  
+    }
+    .navbar form .btn {
+        padding: 10px 41px !important;
+        font-size: 18px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .navbar .navbar-nav{
+        text-align: center;    
+    }
+    .navbar form{
+        justify-content: center;
+    }
+    .navbar .navbar-nav {
+        text-align: center;
+        border-radius: 10px;
+    }
+    /* ================navber end================ */
+
+
+    /* ================banner part sart==================== */
+    #banner_part .overlay {
+        padding: 150px 0 80px !important;
+    }
+    #banner_part .overlay .text h1 {
+        font-size: 59px;
+        line-height: 117%;
+        width: auto;
+        margin: 0 auto;
+        padding: 20px 25px;
+    }
+    #banner_part .overlay .text p {
+        font-size: 26px;
+        line-height: 40px;
+        width: auto;
+        margin: 15px auto 48px;
+        padding: 0 186px;
+    }
+    #banner_part .overlay .text .button_part a {
+        font-size: 22px;
+        padding: 13px 76px !important;
+    }
+    /* ================banner part end==================== */
+
+
+    /* ===============couner part start==================== */
+    #counter_part {
+        margin: 47px 0 50px;
+    }
+    #counter_part .main {
+        text-align: center;
+        padding: 30px 1px;
+    }
+    #counter_part .main .left h3 {
+        font-size: 30px;
+    }
+    #counter_part .main .left h2 {
+        font-size: 30px;
+        width: auto;
+    }
+    #counter_part .main .right {
+        flex-direction: row;
+        justify-content: center;
+    }
+    #counter_part .main .right .item_1 {
+        margin: 20px;
+    }
+    #counter_part .main .right h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    #counter_part .main .right p {
+        font-size: 20px;
+        line-height: 147%;
+    }
+    /* ================counter part end==================== */
+
+
+    /* ================Service  part start==================== */
+    #service_part {
+        padding-bottom: 50px;
+    }
+    #service_part .title p {
+        width: auto;
+        margin: 0 auto;
+    }
+    #service_part .ser_1 {
+        padding: 30px 30px 30px; 
+    }
+    #service_part .ser_1 .text h2 {
+       
+        margin: 24px 0 10px;
+    }
+    #service_part .ser_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+        margin: 0 auto;
+    }
+    /* ==============Service part end==================== */
+
+
+    /* ==============work part sart==================== */
+    #work_part .title p {
+        width: auto;
+        margin: 0 auto 30px;
+        font-size: 20px;
+    }
+    #work_part {
+        background: #F3F3F3;
+        padding: 50px 0 50px !important;
+    }
+    #work_part .work_1 .text {
+        padding: 18px 6px !important;
+    }
+    #work_part .work_1 .text h2 {
+        font-size: 21px;
+        line-height: 41px;
+        margin-bottom: 0;
+    }
+    #work_part .work_1 .text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    /* ==============work part end==================== */
+
+
+    /* ==============Agence part start==================== */
+    #agence_part {
+        padding: 70px 0 90px !important;
+    }
+    /* #agence_part .title h2 {
+        width: auto;
+        margin: 0 auto 20px;
+        font-size: 48px;
+        line-height: 51px;
+    } */
+    #agence_part .title p {
+        width: auto;
+        margin: 0 auto 41px;
+        font-size: 17px;
+    }
+    #agence_part .main .agence{
+        margin-left: 19px;
+    }
+    #agence_part .main .agence_1 {
+        margin-bottom: 32px;
+    }
+    #agence_part .main .agence_1 .text h3 {
+        font-size: 27px;
+        line-height: 33px;
+    }
+    #agence_part .main .agence_1 .text p {
+        font-size: 18px;
+        line-height: 26px;
+        width: auto;
+    }
+    #agence_part .main .nahid {
+        display: block;
+        padding: 41px 11px;
+        width: 115%;
+    }
+    /* ==============agence part end==================== */
+
+
+    /* ==============claint part start==================== */
+    #claint_part .title p {
+        width: auto;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    #claint_part .main .claint p {
+        font-size: 12px;
+        line-height: 17px;
+        width: auto;  
+    } */
+    /* ==============clain part end==================== */
+
+
+    /* ==============login part start==================== */
+    #log_part {
+        background: #F3F3F3;
+        padding: 80px 0;
+    }
+    #log_part .container .main .text h2 {
+        font-size: 40px;
+        line-height: 41px;
+        width: auto;
+    }
+    #log_part .container .main .text p {
+        font-size: 20px;
+        line-height: 31px;
+        width: auto;
+    }
+    #log_part .container .main .right h2 {
+        font-size: 21px;
+        line-height: 27px;
+    }
+    #log_part .container .main .right {
+        border-radius: 10px;
+        padding: 70px 37px !important;
+        width: auto;
+        margin-top: 15px;
+    }
+    #log_part .container .main .right form input {
+        margin-bottom: 30px;
+        padding: 16px 16px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    #log_part .container .main .right form label {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    #log_part .container .main .right form button {
+        padding: 13px 0;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    /* ==============clain part end==================== */
+
+
+    /* ==============cntract part strat==================== */
+    #contract_part .main {
+        padding: 51px 0 50px !important;
+    }
+    #contract_part .main .cont-1 {
+        margin: 10px 0 0 0px;
+    }
+    #contract_part .main .hasan{
+        padding: 0 40px !important;
+    }
+    #contract_part .main .one {
+        margin-bottom: 15px;
+    }
+    #contract_part .main p {
+        font-size: 16px;
+        line-height: 25px;
+        width: auto;
+    }
+    #contract_part .main h3 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    #contract_part .main ul li a {
+        font-size: 16px;
+        line-height: 33px;
+    }
+    /* ==============contract part end==================== */
+
+
+    /* ==============futter part start==================== */
+    .futter_part {
+        padding: 20px 0 30px !important;
+    }
+    .futter_part p {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    /* ==============futter  part end==================== */
+
+
+
+ }

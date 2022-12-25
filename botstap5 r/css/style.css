@@ -1,0 +1,663 @@
+/* =============common css start============= */
+*{
+    padding: 0;
+    margin: 0;
+   box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+   list-style: none;
+   padding: 0;
+}
+.row{
+    margin: 0 !important;
+}
+.title{
+    text-align: center;
+    margin-bottom: 50px;
+} 
+.title h2{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+} 
+.title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+   
+} 
+
+
+/* =============common css end============= */
+/* =============navber css start============ */
+.navbar{
+  width: 100%;
+    position: absolute;
+    top: 50px;
+}
+.navbar .navbar-nav .nav-item {
+    margin-left: 67px;
+}
+.navbar .navbar-nav .nav-item:first-child{
+    margin-left: 0;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    transition: .4s;
+   
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+color: #4756DF;
+}
+.navbar .navbar-nav .nav-item .active{
+    color: #4756DF; 
+}
+.navbar form .btn {
+	padding: 18px 59px !important;
+	color: #ffffff;
+	background: #6A4DF4;
+	border: 0;
+	border-radius: 10px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 26px;
+	text-align: center;
+}
+/* =============navber css end============ */
+
+/* =============banner css start============ */
+#banner_part{
+    width: 100%;
+    background:url(../image/banner.jpg) no-repeat center;
+   background-size: cover;
+
+}
+#banner_part .overlay{
+    width: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding: 315px 0 176px !important;
+
+}
+#banner_part .overlay .text{
+    text-align: center;
+}
+
+#banner_part .overlay .text h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    width: 950px;
+    margin: 0 auto;
+}
+#banner_part .overlay .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 621px;
+    margin: 51px auto 40px ;
+
+
+}
+
+#banner_part .overlay .text .button_part a {
+	color: #ffffff;
+	background: #6A4DF4;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 26px;
+	border-radius: 10px;
+	padding: 30px 96px !important;
+}
+/* =============banner css end============ */
+/* =============Cunter css Sart============ */
+#counter_part{
+    margin: 171px 0 149px;
+}
+#counter_part .main{
+  width: 100%;
+    background: #E0FFF9;
+   padding: 85px 50px;
+    border-radius: 20px;
+}
+
+#counter_part .main .left h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 120%;
+    color: #6A4DF4;  
+}
+#counter_part .main .left h2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 42px;
+color: #151515;
+width: 387px;
+    
+}
+#counter_part .main .right{
+    display: flex;
+    justify-content: flex-end;
+}
+#counter_part .main .right .item_1{
+    margin-left: 110px;
+}
+#counter_part .main .right .item_1:first-child{
+    margin-left: 0;
+}
+#counter_part .main .right h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #151515;
+    
+    
+}
+#counter_part .main .right p{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    color: #737373;
+    
+    
+
+
+}
+/* =============Cunter css end============ */
+/* =============Service css start============ */
+#service_part{
+    padding-bottom: 150px ;
+}
+#service_part .title p{
+    width: 609px;
+    margin: 0 auto;
+}
+#service_part .ser_1{
+    text-align: center;
+    padding: 80px 49px 47px ;
+    margin:  24px 0;
+    transition: .4s;
+}
+#service_part .ser_1:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px 2px;
+    border-radius: 20px; 
+}
+#service_part .ser_1 .text h2{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #151515; 
+    margin: 41px 0 20px;
+}
+
+#service_part .ser_1 .text p{  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+    width: 326px;
+    margin: 0 auto;
+}
+
+/* =============Service css end============ */
+/* =============work css start============ */
+#work_part {
+    background: #F3F3F3;
+    padding: 128px 0 172px !important;
+}
+#work_part .title p{
+    width: 620px;
+    margin: 0 auto 106px;
+}
+
+#work_part .work_1 img{
+    width: 100%;
+    border-radius: 20px;
+}
+#work_part .work_1 {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    background: #ffffff;
+}
+#work_part .work_1 .text{
+text-align: center;
+
+padding:30px 42px !important;
+
+}
+
+#work_part .work_1 .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+    margin-bottom: 24px;
+    
+    
+}
+#work_part .work_1 .text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #737373;
+   
+    
+}
+
+/* =============work css end============ */
+/* =============agence css start============ */
+#agence_part{
+    padding: 120px 0 106px !important;
+}
+#agence_part .title h2{
+    width: 518px;
+    margin: 0 auto 20px;
+    }
+    
+#agence_part .title p{
+    width: 802px;
+    margin: 0 auto 137px;
+
+}
+#agence_part .main .agence_1 {
+    margin-bottom: 88px;
+}
+#agence_part .main .agence_1 img{
+    margin-bottom: 20px;
+}
+#agence_part .main .agence_1 .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #151515;
+    
+    
+}
+#agence_part .main .agence_1 .text p{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #737373;
+width: 344px;
+}
+
+/* =============agence css end============ */
+/* =============claint css start============ */
+/* ************ siider css start *********** */
+#claint_part .slider{
+position: relative;
+}
+#claint_part .slider .prev {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(-26%,-50%);
+	z-index: 11;
+	width: 50px;
+	height: 50px;
+	background: #09bd0c;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 37px;
+	color: #E8E8E8;
+}
+#claint_part .slider .next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%,-50%);
+    width: 50px;
+	height: 50px;
+	background: #09bd0c;
+	border-radius: 50%;
+	line-height: 50px;
+	text-align: center;
+	font-size: 37px;
+	color: #E8E8E8;
+}
+
+/* ************ siider css end *********** */
+#claint_part .title p{
+    width: 620px;
+    margin: 0 auto;
+}
+#claint_part .main {
+    display: flex;
+    justify-content: space-between;
+}
+#claint_part .main .claint {
+	width: 424px;
+	padding: 54px 58px;
+	transition: .4s;
+	background: rgb(68, 78, 98);
+	margin-left: 24px;
+    border-radius: 30px;
+}
+#claint_part .main .claint .icon_div{
+    display: flex;
+}
+#claint_part .main .claint .icon_div i{
+  color: #F9BD2C;
+    margin-left: 5px;
+}
+#claint_part .main .claint p{ 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 307px;
+    margin: 20px 0;
+
+}
+#claint_part .main .claint .images{
+    display: flex;
+    margin-top: 30px;
+}
+#claint_part .main .claint .images img{
+    height: 47px;
+    width: 47px;
+}
+#claint_part .main .claint .images .text {
+    margin-left: 20px;
+}
+#claint_part .main .claint .images .text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #232323;
+}
+
+
+#claint_part .main .claint .images .text p{
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #7B7B7B;
+margin: 0;
+}
+#claint_part .main .claint:hover{
+    background: #F4EFEF;
+    border-radius: 30px;
+}
+
+#claint_part .main .claint .images .nahid{
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+/* =============claint css end============ */
+/* =============login part start============ */
+#log_part{
+    background: #F3F3F3;
+    padding: 150px 0;
+}
+#log_part .container .main .text {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100%;
+}
+#log_part .container .main .text h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #151515;
+    width: 470px;
+    margin-bottom:20px ;
+}
+#log_part .container .main .text p{
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 514px
+}
+#log_part .container .main .right {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 61px 43px !important;
+  width: 536px;
+}
+#log_part .container .main .right h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #151515;
+    text-align: center;
+}
+#log_part .container .main .right form{
+    display:flex ;
+    flex-direction: column;
+   align-items: flex-start;
+}
+#log_part .container .main .right form label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #151515;
+    margin-bottom: 10px;
+}
+#log_part .container .main .right form input{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #E8E8E8;
+    padding: 19px 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D0D0D0;
+
+
+}
+#log_part .container .main .right form input:focus{
+    outline: 0;
+    
+}
+#log_part .container .main .right form button{
+    width: 100%;
+    border: 0;
+    padding: 19px 0;
+    border-radius: 10px;
+    background:  #6A4DF4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+/* =============login css end============ */
+/* =============contract css start============ */
+
+#contract_part .main{
+     border-bottom: 1px solid #E8E8E8;
+     padding: 150px 0 142px !important;
+}
+#contract_part .main .one{
+    margin-bottom: 30px;
+}
+#contract_part .main p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    width: 356px;
+   
+
+}
+#contract_part .main h3{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #151515;
+    margin-bottom: 40px;
+    display: inline-block;
+    
+  
+}
+#contract_part .main .cont-1{
+    margin-left: 131px;
+    width: 100%;
+}
+#contract_part .main ul li a {
+
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7B7B7B;
+    
+ 
+}
+/* =============contract css end============ */
+/* =============futter css start============ */
+.futter_part{
+    text-align: center;
+    padding: 20px 0 46px !important;
+     background: #ffffff;
+}
+.futter_part p{  
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #D0D0D0;
+
+
+}
+
+/* =============futter css end============ */
+
+
+html {
+  height: 100%;
+  background: #223;
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  --border-size: 3px;
+  --border-angle: 0turn;
+  width: 60vmin;
+  height: 50vmin;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 50%,
+      #213
+    ),
+    conic-gradient(from var(--border-angle), transparent 20%, #08f, #f03);
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 3s linear infinite;
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+
